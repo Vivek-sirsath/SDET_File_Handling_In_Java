@@ -1,0 +1,16 @@
+{
+"firstName":"John",
+"lastName":"Kennedy",
+"address":[
+  {
+   "street":"Downing Street",
+   "city":"Hyderabad",
+   "state":"TN"
+  },
+  {
+   "street":"St. Mary Street",
+   "city":"Mumbai",
+   "state":"MH"
+  }
+ ]
+}
