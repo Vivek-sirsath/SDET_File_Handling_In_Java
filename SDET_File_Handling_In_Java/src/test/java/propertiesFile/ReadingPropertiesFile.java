@@ -26,16 +26,22 @@ public class ReadingPropertiesFile {
 		fis.close();
 
 		// Read using getProperty() method
+		System.out.println("Reading values using keys :-");
 		System.out.println(prop.getProperty("name"));
 		System.out.println(prop.getProperty("email"));
+		
+		System.out.println("");
 
 		// Print all the properties in set
+		System.out.println("Reading keys and values as set :-");
 		Set<String> keys = prop.stringPropertyNames();
 		System.out.println(keys); // [name, email, age]
 		System.out.println(prop.values()); // [vivek, abc@gmail.com, 35]
 
 		System.out.println("");
+		
 		// Print all key values
+		System.out.println("Reading data in key : value format :-");
 		for (String key : prop.stringPropertyNames()) {
 			System.out.println(key + "\t" + prop.getProperty(key));
 		}
